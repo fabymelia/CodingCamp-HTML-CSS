@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Faby Melia Shanni – Information Systems Graduate | Web Development, Data & Machine Learning Portfolio" />
+  <meta name="keywords" content="Faby Melia Shanni, Information Systems, Web Development, Machine Learning, PHP, Python, MySQL, Universitas Muria Kudus" />
+  <meta name="author" content="Faby Melia Shanni" />
+  <title>Faby Melia Shanni | Information Systems Graduate</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========================================================
+       NAVIGATION
+  ======================================================== -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Faby<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#home"          class="nav-link" data-section="home">Home</a></li>
+        <li><a href="#about"         class="nav-link" data-section="about">About</a></li>
+        <li><a href="#competencies"  class="nav-link" data-section="competencies">Skills</a></li>
+        <li><a href="#experience"    class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#education"     class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#projects"      class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#publications"  class="nav-link" data-section="publications">Publications</a></li>
+        <li><a href="#contact"       class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========================================================
+       HERO SECTION
+  ======================================================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes" aria-hidden="true">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content fade-in">
+        <p class="hero-greeting">👋 Hello, I'm</p>
+        <h1 class="hero-name">Faby Melia Shanni</h1>
+        <h2 class="hero-title">Information Systems Graduate</h2>
+        <p class="hero-subtitle">Web Development &nbsp;·&nbsp; Data &amp; Machine Learning</p>
+        <p class="hero-description">
+          An Information Systems graduate with a strong interest in web development,
+          database management, data analysis, and machine learning. Passionate about
+          developing technology-driven solutions and transforming ideas into
+          functional applications.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fa-solid fa-folder-open" aria-hidden="true"></i> View My Projects
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/fabymeliashanni" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://canva.link/mlb0cbbje06v0pd" target="_blank" rel="noopener noreferrer" aria-label="Canva Portfolio">
+            <i class="fa-solid fa-briefcase"></i>
+          </a>
+          <a href="mailto:fabymelia461@gmail.com" aria-label="Send Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image fade-in-right">
+        <div class="hero-image-wrapper">
+          <img
+            src="assets/images/profile.jpg"
+            alt="Profile photo of Faby Melia Shanni"
+            class="profile-img"
+            onerror="this.src='https://placehold.co/400x400/1a2a6c/ffffff?text=FMS&font=poppins'"
+          />
+          <div class="hero-image-ring" aria-hidden="true"></div>
+          <div class="hero-image-dots" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Scroll down to About section">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ========================================================
+       ABOUT SECTION
+  ======================================================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-sub">Get To Know Me</p>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="about-image-wrapper">
+            <img
+              src="assets/images/about.jpg"
+              alt="Faby Melia Shanni – About Me"
+              onerror="this.src='https://placehold.co/450x500/b0b7e8/1a2a6c?text=Faby+Melia+Shanni&font=poppins'"
+            />
+            <!-- GPA Badge -->
+            <div class="about-exp-badge">
+              <span class="badge-number">3.86</span>
+              <span class="badge-text">GPA<br>/ 4.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <h3 class="about-subtitle">Who am I?</h3>
+          <p class="about-text">
+            I'm <strong>Faby Melia Shanni</strong>, an Information Systems graduate from
+            <strong>Universitas Muria Kudus</strong>, achieving a GPA of
+            <strong>3.86 / 4.00</strong>. My academic journey provided a solid foundation
+            in web development, database management, data analysis, and machine learning.
+          </p>
+          <p class="about-text">
+            I have hands-on experience developing web-based information systems using
+            PHP Native and MySQL, as well as building a CNN VGG16 image classification
+            model that achieved <strong>98.00% test accuracy</strong>. I have also
+            published <strong>two journal articles</strong> as first author.
+          </p>
+          <p class="about-text">
+            I possess a solid understanding of business processes, management, and
+            accounting and financial information systems. I am detail-oriented,
+            responsible, and capable of working both independently and collaboratively.
+          </p>
+
+          <div class="about-stats-row">
+            <div class="about-stat">
+              <span class="stat-value">3.86</span>
+              <span class="stat-label">GPA / 4.00</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-value">98%</span>
+              <span class="stat-label">Model Accuracy</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-value">2</span>
+              <span class="stat-label">Journal Publications</span>
+            </div>
+          </div>
+
+          <div class="about-info-grid">
+            <div class="about-info-item">
+              <i class="fa-solid fa-user" aria-hidden="true"></i>
+              <div>
+                <span class="info-label">Name</span>
+                <span class="info-value">Faby Melia Shanni</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+              <div>
+                <span class="info-label">Degree</span>
+                <span class="info-value">Bachelor of Information Systems</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <i class="fa-solid fa-university" aria-hidden="true"></i>
+              <div>
+                <span class="info-label">University</span>
+                <span class="info-value">Universitas Muria Kudus</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <span class="info-value">fabymelia461@gmail.com</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <i class="fa-solid fa-plane" aria-hidden="true"></i>
+              <div>
+                <span class="info-label">Availability</span>
+                <span class="info-value">Open to relocation &amp; travel</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <i class="fa-solid fa-language" aria-hidden="true"></i>
+              <div>
+                <span class="info-label">Languages</span>
+                <span class="info-value">Indonesian (Native), English (Basic)</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">Let's Connect</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       CORE COMPETENCIES
+  ======================================================== -->
+  <section class="competencies section section-alt" id="competencies">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-sub">What I Bring</p>
+        <h2 class="section-title">Core Competencies</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="competency-grid">
+
+        <div class="competency-card reveal">
+          <div class="competency-icon icon-web">
+            <i class="fa-solid fa-code" aria-hidden="true"></i>
+          </div>
+          <h3 class="competency-title">Web &amp; Application Development</h3>
+          <p class="competency-desc">
+            Building functional web-based information systems using PHP Native, MySQL,
+            HTML, and CSS, with experience delivering complete multi-role applications.
+          </p>
+        </div>
+
+        <div class="competency-card reveal">
+          <div class="competency-icon icon-db">
+            <i class="fa-solid fa-database" aria-hidden="true"></i>
+          </div>
+          <h3 class="competency-title">Database Management &amp; SQL</h3>
+          <p class="competency-desc">
+            Designing and managing relational databases with MySQL and SQL, including
+            normalization, query optimization, and data integrity for multi-role systems.
+          </p>
+        </div>
+
+        <div class="competency-card reveal">
+          <div class="competency-icon icon-ml">
+            <i class="fa-solid fa-brain" aria-hidden="true"></i>
+          </div>
+          <h3 class="competency-title">Machine Learning &amp; Data Analysis</h3>
+          <p class="competency-desc">
+            Developing CNN-based deep learning models using TensorFlow and VGG16
+            transfer learning, achieving 98.00% test accuracy on image classification tasks.
+          </p>
+        </div>
+
+        <div class="competency-card reveal">
+          <div class="competency-icon icon-sa">
+            <i class="fa-solid fa-sitemap" aria-hidden="true"></i>
+          </div>
+          <h3 class="competency-title">Systems Analysis &amp; Design</h3>
+          <p class="competency-desc">
+            Conducting requirements analysis and creating system documentation including
+            Context Diagrams, DFD, HIPO, and using structured development methodologies.
+          </p>
+        </div>
+
+        <div class="competency-card reveal">
+          <div class="competency-icon icon-mis">
+            <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+          </div>
+          <h3 class="competency-title">Management Information Systems</h3>
+          <p class="competency-desc">
+            Understanding business processes and management systems, including the design
+            and implementation of information systems that support organizational decision-making.
+          </p>
+        </div>
+
+        <div class="competency-card reveal">
+          <div class="competency-icon icon-fin">
+            <i class="fa-solid fa-calculator" aria-hidden="true"></i>
+          </div>
+          <h3 class="competency-title">Accounting &amp; Financial Information Systems</h3>
+          <p class="competency-desc">
+            Knowledge of accounting principles and financial information systems,
+            supporting the development of systems aligned with business and financial workflows.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Technical Skills subsection -->
+      <div class="skills-subsection">
+        <div class="section-header reveal" style="margin-top: var(--spacing-xl);">
+          <p class="section-sub">Tools &amp; Technologies</p>
+          <h2 class="section-title" style="font-size: var(--fs-2xl);">Technical Skills</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="skills-categories reveal">
+
+          <div class="skill-category-block">
+            <h4 class="skill-cat-label">
+              <i class="fa-solid fa-code" aria-hidden="true"></i>
+              Programming &amp; Web
+            </h4>
+            <div class="skill-tags-wrap">
+              <span class="skill-tag skill-tag-blue">Python</span>
+              <span class="skill-tag skill-tag-blue">PHP</span>
+              <span class="skill-tag skill-tag-blue">Laravel</span>
+              <span class="skill-tag skill-tag-blue">HTML</span>
+              <span class="skill-tag skill-tag-blue">CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-category-block">
+            <h4 class="skill-cat-label">
+              <i class="fa-solid fa-database" aria-hidden="true"></i>
+              Database
+            </h4>
+            <div class="skill-tags-wrap">
+              <span class="skill-tag skill-tag-teal">MySQL</span>
+              <span class="skill-tag skill-tag-teal">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-category-block">
+            <h4 class="skill-cat-label">
+              <i class="fa-solid fa-brain" aria-hidden="true"></i>
+              Data Science &amp; ML
+            </h4>
+            <div class="skill-tags-wrap">
+              <span class="skill-tag skill-tag-purple">scikit-learn</span>
+              <span class="skill-tag skill-tag-purple">TensorFlow</span>
+              <span class="skill-tag skill-tag-purple">Streamlit</span>
+            </div>
+          </div>
+
+          <div class="skill-category-block">
+            <h4 class="skill-cat-label">
+              <i class="fa-solid fa-wrench" aria-hidden="true"></i>
+              Tools &amp; Applications
+            </h4>
+            <div class="skill-tags-wrap">
+              <span class="skill-tag skill-tag-gray">Microsoft Excel</span>
+              <span class="skill-tag skill-tag-gray">Visual Studio Code</span>
+              <span class="skill-tag skill-tag-gray">Canva</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       EXPERIENCE SECTION
+  ======================================================== -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-sub">Professional Journey</p>
+        <h2 class="section-title">Experience</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="exp-timeline">
+
+        <!-- Experience 1 -->
+        <div class="exp-timeline-item reveal">
+          <div class="exp-timeline-dot" aria-hidden="true"></div>
+          <article class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-icon-wrap">
+                <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+              </div>
+              <span class="exp-badge">Internship</span>
+            </div>
+            <h3 class="exp-title">Information Systems Developer</h3>
+            <p class="exp-org">
+              <i class="fa-solid fa-building" aria-hidden="true"></i>
+              SMP N 1 Kaliwungu Kudus
+            </p>
+            <p class="exp-period">
+              <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+              January – March 2025
+            </p>
+            <ul class="exp-list">
+              <li>Developed a web-based information system for managing teachers' daily duty schedules using PHP Native and MySQL with the Waterfall development methodology, replacing manual record-keeping processes.</li>
+              <li>Conducted requirements analysis and system design, and implemented features for three user roles: Duty Teacher, Admin, and Principal, including real-time reporting.</li>
+              <li>Provided system training to the main users.</li>
+              <li>Published the internship work as first author in <em>Abdimas Toddopuli: Jurnal Pengabdian Pada Masyarakat</em>, Vol. 7 No. 1 (2025).</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">PHP Native</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Waterfall</span>
+              <span class="tag">Web Development</span>
+              <span class="tag">Published Work</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="exp-timeline-item reveal">
+          <div class="exp-timeline-dot" aria-hidden="true"></div>
+          <article class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-icon-wrap">
+                <i class="fa-solid fa-plane-departure" aria-hidden="true"></i>
+              </div>
+              <span class="exp-badge">Exchange Program</span>
+            </div>
+            <h3 class="exp-title">Student Exchange Participant – PDD Team Member</h3>
+            <p class="exp-org">
+              <i class="fa-solid fa-building" aria-hidden="true"></i>
+              Universitas Sari Mutiara Indonesia
+            </p>
+            <p class="exp-period">
+              <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+              March – July 2024 &nbsp;·&nbsp; Merdeka Student Exchange Batch 4
+            </p>
+            <ul class="exp-list">
+              <li>Completed a one-semester cross-campus student exchange program involving cross-disciplinary discussions, group assignments, and presentations.</li>
+              <li>Served as a member of the PDD (Publication, Decoration, and Documentation) team, supporting publication and documentation activities.</li>
+              <li>Participated in Modul Nusantara activities focused on cultural diversity, tolerance, reflection, and inspiration.</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">MBKM</span>
+              <span class="tag">PDD Team</span>
+              <span class="tag">Cross-cultural</span>
+              <span class="tag">Documentation</span>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       EDUCATION
+  ======================================================== -->
+  <section class="education section section-alt" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-sub">Academic Background</p>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="edu-grid">
+
+        <!-- University -->
+        <div class="edu-card edu-card-main reveal">
+          <div class="edu-card-top">
+            <div class="edu-icon">
+              <i class="fa-solid fa-university" aria-hidden="true"></i>
+            </div>
+            <span class="edu-badge">Bachelor's Degree (S1)</span>
+          </div>
+          <h3 class="edu-degree">Information Systems</h3>
+          <p class="edu-institution">Universitas Muria Kudus</p>
+          <div class="edu-meta">
+            <span><i class="fa-regular fa-calendar" aria-hidden="true"></i> 2022 – 2026</span>
+            <span class="edu-gpa-pill">
+              <i class="fa-solid fa-star" aria-hidden="true"></i> GPA 3.86 / 4.00
+            </span>
+          </div>
+          <p class="edu-desc">
+            Studied core areas including systems analysis and design, database management,
+            web programming, data mining, machine learning, and information security.
+            Graduated with distinction and published two journal articles as first author.
+          </p>
+          <div class="edu-tags">
+            <span class="tag">Web Development</span>
+            <span class="tag">Database Systems</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Systems Analysis</span>
+            <span class="tag">Research &amp; Publication</span>
+          </div>
+        </div>
+
+        <!-- Certifications column -->
+        <div class="edu-certs-column">
+          <h3 class="certs-column-title reveal">
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+            Certifications
+          </h3>
+
+          <div class="cert-card reveal">
+            <div class="cert-icon">
+              <i class="fa-solid fa-medal" aria-hidden="true"></i>
+            </div>
+            <div class="cert-body">
+              <h4 class="cert-title">Mandatory Entrepreneurship Skills</h4>
+              <p class="cert-issuer">Universitas Muria Kudus</p>
+              <span class="cert-year">2025</span>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <div class="cert-icon">
+              <i class="fa-brands fa-microsoft" aria-hidden="true"></i>
+            </div>
+            <div class="cert-body">
+              <h4 class="cert-title">Excel 2019 Associate</h4>
+              <p class="cert-issuer">Microsoft</p>
+              <span class="cert-year">January 2024</span>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <div class="cert-icon">
+              <i class="fa-solid fa-database" aria-hidden="true"></i>
+            </div>
+            <div class="cert-body">
+              <h4 class="cert-title">Introduction to SQL</h4>
+              <p class="cert-issuer">MySkill.id</p>
+              <span class="cert-year">June 2023</span>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <div class="cert-icon">
+              <i class="fa-solid fa-medal" aria-hidden="true"></i>
+            </div>
+            <div class="cert-body">
+              <h4 class="cert-title">Mandatory Computer Skills</h4>
+              <p class="cert-issuer">Universitas Muria Kudus</p>
+              <span class="cert-year">2023</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       PROJECTS
+  ======================================================== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-sub">What I've Built</p>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Batik Classification -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img
+              src="assets/images/project-batikvision.jpg"
+              alt="Indonesian Batik Motif Classification using CNN VGG16"
+              onerror="this.src='https://placehold.co/600x340/1a2a6c/ffffff?text=Batik+Classification&font=poppins'"
+            />
+            <div class="project-overlay" aria-hidden="true">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <span class="project-featured-badge">Thesis</span>
+          </div>
+          <div class="project-body">
+            <span class="project-category">Machine Learning &nbsp;·&nbsp; Thesis &amp; Publication</span>
+            <h3 class="project-title">Indonesian Batik Motif Classification</h3>
+            <p class="project-desc">
+              Developed an Indonesian batik motif classification system using CNN with
+              VGG16 transfer learning and fine-tuning. The model classifies three batik
+              motifs and achieved <strong>98.00% test accuracy</strong> with an F1-score
+              of 0.98, outperforming MobileNetV2 (97.33%). Deployed as a web application
+              using Streamlit.
+            </p>
+            <div class="project-achievement">
+              <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+              <span>98.00% Test Accuracy · First Author – Sistemasi: Jurnal Sistem Informasi, Vol. 15 No. 6 (2026)</span>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">TensorFlow</span>
+              <span class="tech-tag">VGG16</span>
+              <span class="tech-tag">CNN</span>
+              <span class="tech-tag">Streamlit</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Attendance App -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img
+              src="assets/images/project-attendance.jpg"
+              alt="Employee Attendance Application for a Retail Store"
+              onerror="this.src='https://placehold.co/600x340/253580/ffffff?text=Attendance+App&font=poppins'"
+            />
+            <div class="project-overlay" aria-hidden="true">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-category">Mobile Application Development &nbsp;·&nbsp; 2025</span>
+            <h3 class="project-title">Employee Attendance Application</h3>
+            <p class="project-desc">
+              Developed an employee attendance application for a retail store using Python
+              (Flet) and MySQL. The application includes role-based authentication, employee
+              and branch management, check-in and check-out functionality with photo uploads,
+              and automatic work-duration calculation.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Flet</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Motorcycle Service IS -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img
+              src="assets/images/project-motorcycle.jpg"
+              alt="Web-Based Motorcycle Service Information System"
+              onerror="this.src='https://placehold.co/600x340/0891b2/ffffff?text=Service+Info+System&font=poppins'"
+            />
+            <div class="project-overlay" aria-hidden="true">
+              <i class="fa-solid fa-gears"></i>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-category">Web Application &nbsp;·&nbsp; Group Project 2023</span>
+            <h3 class="project-title">Motorcycle Service Information System</h3>
+            <p class="project-desc">
+              Analyzed and designed a web-based motorcycle service information system
+              supporting four user roles: Customer, Admin, Mechanic, and Manager.
+              Contributed to system documentation and design using Context Diagrams,
+              HIPO, and Data Flow Diagrams (DFD). Also participated in writing the
+              project paper.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Systems Analysis</span>
+              <span class="tech-tag">DFD</span>
+              <span class="tech-tag">HIPO</span>
+              <span class="tech-tag">Web Design</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Teacher Daily Agenda IS -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img
+              src="assets/images/project-agenda.jpg"
+              alt="Web-Based Teacher Daily Duty Schedule Information System"
+              onerror="this.src='https://placehold.co/600x340/7c3aed/ffffff?text=Daily+Agenda+System&font=poppins'"
+            />
+            <div class="project-overlay" aria-hidden="true">
+              <i class="fa-solid fa-calendar-check"></i>
+            </div>
+            <span class="project-featured-badge project-featured-badge--pub">Published</span>
+          </div>
+          <div class="project-body">
+            <span class="project-category">Web Application &nbsp;·&nbsp; Internship Project 2025</span>
+            <h3 class="project-title">Teacher Daily Duty Schedule System</h3>
+            <p class="project-desc">
+              Developed a web-based system to manage teachers' daily duty schedules at
+              SMP N 1 Kaliwungu Kudus using PHP Native and MySQL. Implemented three user
+              roles (Duty Teacher, Admin, Principal) with real-time reporting, replacing
+              fully manual record-keeping processes.
+            </p>
+            <div class="project-achievement">
+              <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+              <span>First Author – Abdimas Toddopuli, Vol. 7 No. 1 (2025)</span>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">PHP Native</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       PUBLICATIONS
+  ======================================================== -->
+  <section class="publications section section-alt" id="publications">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-sub">Research &amp; Academic Writing</p>
+        <h2 class="section-title">Publications</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="publications-grid">
+
+        <article class="pub-card reveal">
+          <div class="pub-card-top">
+            <div class="pub-icon">
+              <i class="fa-solid fa-brain" aria-hidden="true"></i>
+            </div>
+            <span class="pub-badge">2026</span>
+          </div>
+          <span class="pub-role">First Author</span>
+          <h3 class="pub-title">
+            Indonesian Batik Motif Classification Using CNN VGG16
+          </h3>
+          <div class="pub-meta">
+            <p class="pub-journal">
+              <i class="fa-solid fa-book" aria-hidden="true"></i>
+              <strong>Sistemasi: Jurnal Sistem Informasi</strong>
+            </p>
+            <p class="pub-details">Volume 15, Number 6 &nbsp;·&nbsp; 2026</p>
+          </div>
+          <p class="pub-desc">
+            Presents a CNN-based image classification model using VGG16 transfer
+            learning to identify and categorize Indonesian batik motifs, achieving
+            98.00% test accuracy and outperforming baseline models.
+          </p>
+          <div class="pub-highlight">
+            <i class="fa-solid fa-award" aria-hidden="true"></i>
+            98.00% Test Accuracy · F1-Score 0.98
+          </div>
+        </article>
+
+        <article class="pub-card reveal">
+          <div class="pub-card-top">
+            <div class="pub-icon">
+              <i class="fa-solid fa-globe" aria-hidden="true"></i>
+            </div>
+            <span class="pub-badge">2025</span>
+          </div>
+          <span class="pub-role">First Author</span>
+          <h3 class="pub-title">
+            Sistem Informasi Agenda Harian Guru Piket Berbasis Website Pada SMP N 1 Kaliwungu Kudus
+          </h3>
+          <div class="pub-meta">
+            <p class="pub-journal">
+              <i class="fa-solid fa-book" aria-hidden="true"></i>
+              <strong>Abdimas Toddopuli: Jurnal Pengabdian Pada Masyarakat</strong>
+            </p>
+            <p class="pub-details">Volume 7, Number 1 &nbsp;·&nbsp; 2025</p>
+          </div>
+          <p class="pub-desc">
+            Documents the development and implementation of a web-based information system
+            for managing teachers' daily duty schedules, covering the methodology, system
+            design, and community service outcomes at SMP N 1 Kaliwungu Kudus.
+          </p>
+          <div class="pub-highlight">
+            <i class="fa-solid fa-chalkboard-teacher" aria-hidden="true"></i>
+            Community Service Publication · Internship-Based Research
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       CONTACT SECTION
+  ======================================================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-sub">Get In Touch</p>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-line" aria-hidden="true"></div>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+          <h3 class="contact-info-title">Let's Talk</h3>
+          <p class="contact-info-desc">
+            I'm open to entry-level opportunities, freelance projects, and collaborations
+            in web development, data analysis, or machine learning. Feel free to reach out
+            — I'll get back to you as soon as possible.
+          </p>
+
+          <div class="contact-details">
+            <a href="mailto:fabymelia461@gmail.com" class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div>
+                <span class="detail-label">Email</span>
+                <span class="detail-value">fabymelia461@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/fabymeliashanni" target="_blank" rel="noopener noreferrer" class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </div>
+              <div>
+                <span class="detail-label">LinkedIn</span>
+                <span class="detail-value">linkedin.com/in/fabymeliashanni</span>
+              </div>
+            </a>
+
+            <a href="https://canva.link/mlb0cbbje06v0pd" target="_blank" rel="noopener noreferrer" class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+              </div>
+              <div>
+                <span class="detail-label">Portfolio (Canva)</span>
+                <span class="detail-value">canva.link/mlb0cbbje06v0pd</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Additional Info -->
+          <div class="additional-info">
+            <h4 class="additional-info-title">Additional Information</h4>
+            <div class="additional-info-cards">
+              <div class="add-info-card">
+                <i class="fa-solid fa-language" aria-hidden="true"></i>
+                <div>
+                  <span class="add-info-label">Languages</span>
+                  <span class="add-info-value">Indonesian (Native)</span>
+                  <span class="add-info-value">English (Basic)</span>
+                </div>
+              </div>
+              <div class="add-info-card">
+                <i class="fa-solid fa-plane" aria-hidden="true"></i>
+                <div>
+                  <span class="add-info-label">Work Availability</span>
+                  <span class="add-info-value">Open to relocation or travel across regions</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contact-form" novalidate>
+            <p class="form-note">
+              <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+              This form does not send messages directly. Please use the email or LinkedIn link above to get in touch.
+            </p>
+
+            <div class="form-group">
+              <label for="contact-name">Full Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                placeholder="Your full name"
+                autocomplete="name"
+                required
+                aria-required="true"
+              />
+              <span class="form-error" id="name-error" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Email Address <span aria-hidden="true">*</span></label>
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                placeholder="your@email.com"
+                autocomplete="email"
+                required
+                aria-required="true"
+              />
+              <span class="form-error" id="email-error" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Message <span aria-hidden="true">*</span></label>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                placeholder="Write your message here..."
+                required
+                aria-required="true"
+              ></textarea>
+              <span class="form-error" id="message-error" role="alert"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              <span>Send Message</span>
+            </button>
+
+            <div class="form-success" id="form-success" role="status" aria-live="polite">
+              <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+              <p>Thank you for your message! Please also reach out directly via email or LinkedIn to ensure I receive it.</p>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       FOOTER
+  ======================================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="#home" class="footer-logo">
+        <span class="logo-bracket">&lt;</span>Faby<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <p class="footer-text">
+        Designed &amp; Built by <strong>Faby Melia Shanni</strong>
+      </p>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/fabymeliashanni" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://canva.link/mlb0cbbje06v0pd" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Canva Portfolio">
+          <i class="fa-solid fa-briefcase"></i>
+        </a>
+        <a href="mailto:fabymelia461@gmail.com" class="social-link" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <p class="footer-copy">
+        &copy; <span id="footer-year"></span> Faby Melia Shanni. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
