@@ -145,6 +145,11 @@ input, textarea { font-family: var(--font-base); font-size: var(--fs-base); }
   margin-inline: auto;
 }
 
+/* Smaller variant for sub-headings within a section */
+.section-title--sm {
+  font-size: var(--fs-2xl);
+}
+
 /* Generic tag */
 .tag {
   display: inline-block;
